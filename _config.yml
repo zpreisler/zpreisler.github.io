@@ -1,0 +1,8 @@
+remote-theme: zpreisler/zpreisler-github.io
+
+title: Zdenek Preisler's
+subtitle: computational and theoretical physicist
+
+collections:
+   more:
+      output: true

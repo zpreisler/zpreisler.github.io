@@ -1,0 +1,16 @@
+<nav class="nav">
+	<a href="#topside">
+		^
+	</a>
+	{% for item in site.more %}
+	<a href="#{{ item.ref }}">
+			{{ item.name | downcase }}
+	</a>
+	{% endfor %}
+	<a href="/zpreisler_resume.pdf" download>
+		resume	
+	</a>
+	<a href="#bottom">
+		/
+	</a>
+</nav>

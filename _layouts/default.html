@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> {{ page.title }} </title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rokkitt:400,60,800&amp;subset=latin-ext"> 
+		<link rel="stylesheet" href="/assets/css/styles.css">
+	</head>
+	<body>
+		<header id="topside">
+			{% include navigate.html %}
+			<aside>
+			</aside>
+			<div class=page_width_container>
+				<h1>{{ site.title }} <span class="decor">website</span></h1>
+				<h2>{{ site.subtitle }}</h2>
+				<div class="row">
+					<a href="http://www.google.com">
+						<span class=logo_char>@<span>
+					</a>
+					<a href="http://www.google.com">
+						<img src="/assets/logos/LI-In-Bug.png" class="logo"></img>
+					</a>
+					<a href="http://www.google.com">
+						<img src="../assets/logos/GitHub-Mark-64px.png" class="logo"></img>
+					</a>
+				</div>
+			</div>
+			<aside>
+			</aside>
+		</header>
+		<main>
+			<aside>
+			</aside>
+			<article>
+				{{ content }}
+				{% for item in site.more %}
+					<div class="anchor" id="{{ item.ref }}"></div>
+					<h1>{{ item.title }}</h1>
+					{{ item.content }}
+				{% endfor %}
+			</article>
+			<aside>
+			</aside>
+		</main>
+		<footer id="bottom">
+			<a href="http://www.google.com">
+				<div class="logo_char">@</div>
+			</a>
+			<a href="http://www.google.com">
+				<img href="www.google.com" src="../assets/logos/LI-In-Bug.png" class="logo"> </img>
+			</a>
+			<a href="http://www.google.com">
+				<img src="../assets/logos/GitHub-Mark-Light-64px.png" class="logo"> </img>
+			</a>
+		</footer>
+		<script src="/assets/js/main.js"></script>
+	</body>
+</html>
