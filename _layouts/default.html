@@ -34,11 +34,12 @@
 			</aside>
 			<article>
 				{{ content }}
-				{% for item in site.more %}
-					<div class="anchor" id="{{ item.ref }}"></div>
-					<h1>{{ item.title }}</h1>
-					{{ item.content }}
-				{% endfor %}
+				{% assign more_list = site.more | sort: 'order' %}
+					{% for item in more_list %}
+						<div class="anchor" id="{{ item.ref }}"></div>
+						<h1>{{ item.title }}</h1>
+						{{ item.content }}
+					{% endfor %}
 			</article>
 			<aside>
 			</aside>

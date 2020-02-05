@@ -2,7 +2,8 @@ html {
   height: 100%;
   font-family: 'Rokkitt', serif;
   font-size: 24px;
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  background-color: black; }
 
 body, header, main, aside, footer, nav {
   display: flex;

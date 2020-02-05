@@ -2,7 +2,13 @@
 title: Publications
 ref: publications
 name: publications
+order: 1
 ---
+
+F. Qiu, J. R. Edison, Z. Preisler, Y.-F. Zhang, G. Li, A. Pan, C.-H. Hsu, T. M. Mattox, P. Ercius, C. Song, K. Bustillo, M. A. Brady, E. W. Zaia, S. Jeong, J. B. Neaton, S. Du, S. Whitelam, J. J. Urban<br>
+Design Rules for Self‐Assembly of 2D Nanocrystal/Metal–Organic Framework Superstructures<br>
+*Angew. Chem. Int. Ed.* **2018**, *57*, 13172
+{: .countwords}
 
 Z. Preisler, B. Sacca, S. Whitelam<br>
 Irregular model DNA particles self-assemble into a regular structure<br>
